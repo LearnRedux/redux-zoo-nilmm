@@ -2,7 +2,6 @@ import { SET_PRESENCE_FILTER, setPresenceFilter } from '../src/actions'
 import { presenceFilter } from '../src/reducers'
 
 describe('PresenceFilter', () => {
-
   it('there should be a SET_PRESENCE_FILTER action type', () => {
     expect(SET_PRESENCE_FILTER).toEqual(expect.any(String));
   });
